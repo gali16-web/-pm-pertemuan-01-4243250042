@@ -118,9 +118,6 @@ Pendekatan **Native** membangun aplikasi khusus untuk satu sistem operasi menggu
 Pendekatan **Hybrid** membungkus kode web (HTML, CSS, dan JavaScript) di dalam komponen WebView menggunakan kerangka kerja seperti Ionic atau Cordova. Pendekatan ini sangat hemat biaya dan cepat dikerjakan oleh pengembang web, tetapi performanya paling rendah karena antarmuka dirender melalui peramban internal. Contoh kasus yang tepat adalah **aplikasi katalog informasi kampus atau pencatatan hasil panen komunitas petani** dengan anggaran terbatas dan fitur sederhana.
 
 Sementara itu, pendekatan **Cross-platform** seperti Flutter menggunakan satu basis kode (Dart) yang dikompilasi ke kode mesin native (AOT) serta menggambar piksel antarmuka sendiri melalui engine rendering Impeller. Hasilnya, performa aplikasi mendekati Native dengan efisiensi waktu dan biaya pengembangan lintas platform. Contoh kasus yang tepat adalah **aplikasi e-commerce atau startup layanan pesan-antar** yang membutuhkan tampilan konsisten dan responsif di Android maupun iOS secara bersamaan.
-
-*(Jumlah kata esai: 218 kata — sesuai rentang ketentuan 150–250 kata)*
-
 ---
 
 ## (f) Pernyataan Penggunaan AI
@@ -128,5 +125,4 @@ Sementara itu, pendekatan **Cross-platform** seperti Flutter menggunakan satu ba
 Dalam pengerjaan Tugas Rutin 1 ini, penulis menggunakan bantuan asisten AI (Google Antigravity / Gemini) sebagai pendamping belajar (*pair programming*) untuk:
 1. Membantu merancang pemisahan struktur folder kode sumber (`models`, `screens`, dan `widgets`) agar mengikuti prinsip *clean code* dan konvensi dokumentasi Dart (`///`).
 2. Membantu merapikan format penulisan tabel dan tata letak dokumentasi Markdown pada berkas `README.md`.
-
-Seluruh konfigurasi *environment* pada perangkat lokal, pengujian aplikasi, verifikasi kode program, serta pemahaman materi perbandingan ekosistem pemrograman mobile telah diperiksa dan dipahami sepenuhnya oleh penulis.
+3. Memahai flow dari flutter.
